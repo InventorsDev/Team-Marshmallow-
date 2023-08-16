@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Registration</title>
+
+    <!----------------------- 
+        CSS LINK
+     ------------------------>
+    <link rel="stylesheet" href="css/styly.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <div>
+                <a href="/doctor.html">
+                    <i class="fa fa-long-arrow-left"></i>
+                </a>
+            </div>
+            <div class="wellness">
+                <a href="index.html">
+                    <img src="img/wellness361logo.png" alt="wellness361logo">
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="sub-container">
+            <div class="signup-container">
+                <div class="signup">
+                    <img src="img/signinimg.png">
+                </div>
+
+                <div class="reg-box-signup">
+                    <div class="reg">
+                        <h2>Sign Up</h2>
+
+                        <div>
+                            <span>First name</span>
+                            <div class="inputkey">
+                                <input type="text" name="first_name" placeholder="Enter your Full name" required>
+                                <i class="fa fa-user-o user-icon"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="reg-list">
+                            <div>
+                                <span>Email address</span>
+                                <div class="inputkey">
+                                    <input type="email" name="email" placeholder="Enter your email address "
+                                        required>
+                                    <i class="fa fa-envelope-o user-icon"></i>
+                                </div>
+
+                            </div>
+                            <div>
+                                <span>Phone number</span>
+                                <div class="inputkey">
+                                    <input type="text" name="number" placeholder="Enter your phone number" required>
+                                    <i class="fa fa-phone user-icon"></i>
+                                </div>
+
+                            </div>
+                            <div>
+                                <span>Gender</span>
+                                <div class="inputkey-gender">
+                                    <select id="gender" name="gender">
+                                        <option value="">Select gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div>
+                                <span>Specialty</span>
+                                <div class="inputkey">
+                                    <input type="text" name="specialty" placeholder="Enter your area of specialization"
+                                        required>
+                                    <i class="fa fa-stethoscope user-icon"></i>
+                                </div>
+
+                            </div>
+                            <div>
+                                <span>Medical License number</span>
+                                <div class="inputkey">
+                                    <input type="text" name="medical-license-number" placeholder="Enter your medical license number"
+                                        required>
+
+                                </div>
+
+                            </div>
+                            <div>
+                                <span>Professional Experience</span>
+                                <div class="inputkey">
+                                    <input type="text" name="professiona-experience" placeholder="Enter your years of experience"
+                                        required>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>Clinic or hospital details</span>
+                            <div class="inputkey">
+                                <input type="text" name="first_name" placeholder="Enter the name of your hospital"
+                                    required>
+                                <i class="fa fa-map-marker user-icon"></i>
+                            </div>
+
+                        </div>
+                        <div>
+                            <span>Password</span>
+                            <div class="inputkey password">
+                                <input type="password" name="password" placeholder="********" required>
+
+                            </div>
+
+                        </div>
+                        <div>
+                            <span>Confirm password</span>
+                            <div class="inputkey password">
+                                <input type="password" name="confirm_password" placeholder="********" required>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="upload">
+                            <div class="upload-file">
+                                <span>Upload your medical certificate</span> <br>
+                                <span><strong>NOTE:</strong> Your file size must not be less than 10MB</span>
+                                <div class="file">
+                                    <i class="fa fa-upload"></i>
+                                    <input type="file" id="profilePicture" name="profilePicture">
+                                </div>
+                            </div>
+                            <div class="upload-file">
+                                <span>Upload a valid means of identification (e.g. passport) </span>
+                                <div class="file">
+                                    <i class="fa fa-upload"></i>
+                                    <input type="file" id="profilePicture" name="profilePicture">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="password">
+                            <a href="/verifycode.html">
+                                <button type="submit">Create an account</button>
+                            </a>
+                           <a href="">
+                            <button class="google in" type="submit">sign up with google</button>
+                           </a>
+                            
+                        </div>
+
+
+                        <div class="account-signup">
+                            <p>Already have an account? </p>
+                            <p class="sign-in">Sign In</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
